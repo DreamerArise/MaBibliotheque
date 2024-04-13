@@ -1,0 +1,51 @@
+JFDML JFormDesigner: "8.2.2.0.382" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, comp label1::::274:x}, seq l {space :p:20:p, par t {comp button4:::p:231:p, par l:::p {comp button1::::231:x, comp button3::l::231:x, comp button2::l::231:x}}, space :0:29:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p:45:p, space :p:37:p, comp button1:::p:46:p, space :p:42:p, comp button2:::p:46:p, space :p:40:p, comp button3:::p:46:p, space :p:35:p, comp button4:::p:46:p, space ::161:x}}"
+		} ) {
+			name: "panel1"
+			"background": new java.awt.Color( 255, 102, 204, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "  BIBILOTHEQUE           "
+				"background": new java.awt.Color( 255, 204, 255, 255 )
+				"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+				"font": new java.awt.Font( "Britannic Bold", 3, 30 )
+				"foreground": new java.awt.Color( 51, 0, 51, 255 )
+				"horizontalAlignment": 0
+				"horizontalTextPosition": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "LIVRE"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Berlin Sans FB Demi", 1, 4, false )
+				"foreground": new java.awt.Color( 153, 0, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "EMPRUNT"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Berlin Sans FB Demi", 1, 4, false )
+				"foreground": new java.awt.Color( 153, 0, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "UTILISATEUR"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( "Berlin Sans FB Demi", 1, 4, false )
+				"foreground": new java.awt.Color( 153, 0, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "STATISTIQUES"
+				"font": #SwingDerivedFont0
+				"foreground": new java.awt.Color( 153, 0, 153, 255 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 280, 550 )
+		} )
+	}
+}
